@@ -11,6 +11,8 @@
 		04CC78D127970572002F9107 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC78D027970572002F9107 /* ContentView.swift */; };
 		04CC78D327970576002F9107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CC78D227970576002F9107 /* Assets.xcassets */; };
 		04CC78D627970576002F9107 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CC78D527970576002F9107 /* Preview Assets.xcassets */; };
+		04CC78E027970786002F9107 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 04CC78DE27970786002F9107 /* tips.json */; };
+		04CC78E127970786002F9107 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 04CC78DF27970786002F9107 /* locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		04CC78D027970572002F9107 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04CC78D227970576002F9107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CC78D527970576002F9107 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04CC78DE27970786002F9107 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		04CC78DF27970786002F9107 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				04CC78CE27970572002F9107 /* TrekrMultiPlatformApp.swift */,
-				04CC78D027970572002F9107 /* ContentView.swift */,
+				04CC78DC279705F2002F9107 /* Model */,
+				04CC78DD279705FA002F9107 /* Views */,
 				04CC78D227970576002F9107 /* Assets.xcassets */,
 				04CC78D427970576002F9107 /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				04CC78D527970576002F9107 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04CC78DC279705F2002F9107 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04CC78DF27970786002F9107 /* locations.json */,
+				04CC78DE27970786002F9107 /* tips.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04CC78DD279705FA002F9107 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04CC78D027970572002F9107 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +149,8 @@
 			files = (
 				04CC78D627970576002F9107 /* Preview Assets.xcassets in Resources */,
 				04CC78D327970576002F9107 /* Assets.xcassets in Resources */,
+				04CC78E127970786002F9107 /* locations.json in Resources */,
+				04CC78E027970786002F9107 /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
