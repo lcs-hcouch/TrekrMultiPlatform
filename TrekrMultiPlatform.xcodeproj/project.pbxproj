@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04934675279862ED0066687C /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04934674279862ED0066687C /* LocationStore.swift */; };
 		04CC78CF27970572002F9107 /* TrekrMultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC78CE27970572002F9107 /* TrekrMultiPlatformApp.swift */; };
 		04CC78D327970576002F9107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CC78D227970576002F9107 /* Assets.xcassets */; };
 		04CC78D627970576002F9107 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CC78D527970576002F9107 /* Preview Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04934674279862ED0066687C /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
 		04CC78CB27970572002F9107 /* TrekrMultiPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrekrMultiPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CC78CE27970572002F9107 /* TrekrMultiPlatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekrMultiPlatformApp.swift; sourceTree = "<group>"; };
 		04CC78D227970576002F9107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				04CC78DF27970786002F9107 /* locations.json */,
 				04CC78DE27970786002F9107 /* tips.json */,
 				04CC78E2279709A1002F9107 /* Location.swift */,
+				04934674279862ED0066687C /* LocationStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04934675279862ED0066687C /* LocationStore.swift in Sources */,
 				04CC78E3279709A1002F9107 /* Location.swift in Sources */,
 				04CC78CF27970572002F9107 /* TrekrMultiPlatformApp.swift in Sources */,
 				04CC78E527970C01002F9107 /* LocationDetail.swift in Sources */,
